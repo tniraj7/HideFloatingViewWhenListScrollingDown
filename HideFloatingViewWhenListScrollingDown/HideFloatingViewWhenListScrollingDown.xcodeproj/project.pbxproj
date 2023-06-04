@@ -57,13 +57,13 @@
 		3430AEAC2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDown */ = {
 			isa = PBXGroup;
 			children = (
+				342C286A2A2C82D800F43BC0 /* ScrollDirection.swift */,
 				342C28682A2C82A300F43BC0 /* ScrollOffsetPreferenceKey.swift */,
 				3430AEAD2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDownApp.swift */,
 				342C28662A2C822400F43BC0 /* FloatingView.swift */,
 				3430AEAF2A18D13B004A6798 /* ListView.swift */,
 				3430AEB12A18D13E004A6798 /* Assets.xcassets */,
 				3430AEB32A18D13E004A6798 /* Preview Content */,
-				342C286A2A2C82D800F43BC0 /* ScrollDirection.swift */,
 			);
 			path = HideFloatingViewWhenListScrollingDown;
 			sourceTree = "<group>";
