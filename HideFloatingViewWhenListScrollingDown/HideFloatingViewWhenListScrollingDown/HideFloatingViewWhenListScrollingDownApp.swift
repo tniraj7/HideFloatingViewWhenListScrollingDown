@@ -4,7 +4,7 @@ import SwiftUI
 struct HideFloatingViewWhenListScrollingDownApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView()
         }
     }
 }

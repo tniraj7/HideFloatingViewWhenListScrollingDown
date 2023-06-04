@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342C28672A2C822400F43BC0 /* FloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C28662A2C822400F43BC0 /* FloatingView.swift */; };
+		342C28692A2C82A300F43BC0 /* ScrollOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C28682A2C82A300F43BC0 /* ScrollOffsetPreferenceKey.swift */; };
+		342C286B2A2C82D800F43BC0 /* ScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C286A2A2C82D800F43BC0 /* ScrollDirection.swift */; };
 		3430AEAE2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430AEAD2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDownApp.swift */; };
-		3430AEB02A18D13B004A6798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430AEAF2A18D13B004A6798 /* ContentView.swift */; };
+		3430AEB02A18D13B004A6798 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430AEAF2A18D13B004A6798 /* ListView.swift */; };
 		3430AEB22A18D13E004A6798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3430AEB12A18D13E004A6798 /* Assets.xcassets */; };
 		3430AEB52A18D13E004A6798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3430AEB42A18D13E004A6798 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342C28662A2C822400F43BC0 /* FloatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingView.swift; sourceTree = "<group>"; };
+		342C28682A2C82A300F43BC0 /* ScrollOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetPreferenceKey.swift; sourceTree = "<group>"; };
+		342C286A2A2C82D800F43BC0 /* ScrollDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDirection.swift; sourceTree = "<group>"; };
 		3430AEAA2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideFloatingViewWhenListScrollingDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3430AEAD2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideFloatingViewWhenListScrollingDownApp.swift; sourceTree = "<group>"; };
-		3430AEAF2A18D13B004A6798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3430AEAF2A18D13B004A6798 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		3430AEB12A18D13E004A6798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3430AEB42A18D13E004A6798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,10 +57,13 @@
 		3430AEAC2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDown */ = {
 			isa = PBXGroup;
 			children = (
+				342C28682A2C82A300F43BC0 /* ScrollOffsetPreferenceKey.swift */,
 				3430AEAD2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDownApp.swift */,
-				3430AEAF2A18D13B004A6798 /* ContentView.swift */,
+				342C28662A2C822400F43BC0 /* FloatingView.swift */,
+				3430AEAF2A18D13B004A6798 /* ListView.swift */,
 				3430AEB12A18D13E004A6798 /* Assets.xcassets */,
 				3430AEB32A18D13E004A6798 /* Preview Content */,
+				342C286A2A2C82D800F43BC0 /* ScrollDirection.swift */,
 			);
 			path = HideFloatingViewWhenListScrollingDown;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3430AEB02A18D13B004A6798 /* ContentView.swift in Sources */,
+				342C28692A2C82A300F43BC0 /* ScrollOffsetPreferenceKey.swift in Sources */,
+				3430AEB02A18D13B004A6798 /* ListView.swift in Sources */,
+				342C28672A2C822400F43BC0 /* FloatingView.swift in Sources */,
 				3430AEAE2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDownApp.swift in Sources */,
+				342C286B2A2C82D800F43BC0 /* ScrollDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
