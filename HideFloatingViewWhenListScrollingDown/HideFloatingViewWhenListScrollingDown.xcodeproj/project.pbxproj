@@ -14,7 +14,18 @@
 		3430AEB02A18D13B004A6798 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430AEAF2A18D13B004A6798 /* ListView.swift */; };
 		3430AEB22A18D13E004A6798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3430AEB12A18D13E004A6798 /* Assets.xcassets */; };
 		3430AEB52A18D13E004A6798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3430AEB42A18D13E004A6798 /* Preview Assets.xcassets */; };
+		3433CDCB2AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3433CDCA2AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3433CDCE2AA7499400D93A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3430AEA22A18D13B004A6798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3430AEA92A18D13B004A6798;
+			remoteInfo = HideFloatingViewWhenListScrollingDown;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		342C28662A2C822400F43BC0 /* FloatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingView.swift; sourceTree = "<group>"; };
@@ -25,10 +36,19 @@
 		3430AEAF2A18D13B004A6798 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		3430AEB12A18D13E004A6798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3430AEB42A18D13E004A6798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3433CDC82AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideFloatingViewWhenListScrollingDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3433CDCA2AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideFloatingViewWhenListScrollingDownUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3430AEA72A18D13B004A6798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3433CDC52AA7499400D93A47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				3430AEAC2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDown */,
+				3433CDC92AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests */,
 				3430AEAB2A18D13B004A6798 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				3430AEAA2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDown.app */,
+				3433CDC82AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +98,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3433CDC92AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3433CDCA2AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests.swift */,
+			);
+			path = HideFloatingViewWhenListScrollingDownUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,6 +126,24 @@
 			productReference = 3430AEAA2A18D13B004A6798 /* HideFloatingViewWhenListScrollingDown.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3433CDC72AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3433CDD22AA7499400D93A47 /* Build configuration list for PBXNativeTarget "HideFloatingViewWhenListScrollingDownUITests" */;
+			buildPhases = (
+				3433CDC42AA7499400D93A47 /* Sources */,
+				3433CDC52AA7499400D93A47 /* Frameworks */,
+				3433CDC62AA7499400D93A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3433CDCF2AA7499400D93A47 /* PBXTargetDependency */,
+			);
+			name = HideFloatingViewWhenListScrollingDownUITests;
+			productName = HideFloatingViewWhenListScrollingDownUITests;
+			productReference = 3433CDC82AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -103,11 +151,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					3430AEA92A18D13B004A6798 = {
 						CreatedOnToolsVersion = 14.0.1;
+					};
+					3433CDC72AA7499400D93A47 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3430AEA92A18D13B004A6798;
 					};
 				};
 			};
@@ -125,6 +177,7 @@
 			projectRoot = "";
 			targets = (
 				3430AEA92A18D13B004A6798 /* HideFloatingViewWhenListScrollingDown */,
+				3433CDC72AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +189,13 @@
 			files = (
 				3430AEB52A18D13E004A6798 /* Preview Assets.xcassets in Resources */,
 				3430AEB22A18D13E004A6798 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3433CDC62AA7499400D93A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +214,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3433CDC42AA7499400D93A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3433CDCB2AA7499400D93A47 /* HideFloatingViewWhenListScrollingDownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3433CDCF2AA7499400D93A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3430AEA92A18D13B004A6798 /* HideFloatingViewWhenListScrollingDown */;
+			targetProxy = 3433CDCE2AA7499400D93A47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3430AEB62A18D13E004A6798 /* Debug */ = {
@@ -327,6 +403,40 @@
 			};
 			name = Release;
 		};
+		3433CDD02AA7499400D93A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.disableMenu.niraj.HideFloatingViewWhenListScrollingDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HideFloatingViewWhenListScrollingDown;
+			};
+			name = Debug;
+		};
+		3433CDD12AA7499400D93A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.disableMenu.niraj.HideFloatingViewWhenListScrollingDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HideFloatingViewWhenListScrollingDown;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -344,6 +454,15 @@
 			buildConfigurations = (
 				3430AEB92A18D13E004A6798 /* Debug */,
 				3430AEBA2A18D13E004A6798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3433CDD22AA7499400D93A47 /* Build configuration list for PBXNativeTarget "HideFloatingViewWhenListScrollingDownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3433CDD02AA7499400D93A47 /* Debug */,
+				3433CDD12AA7499400D93A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
