@@ -2,7 +2,7 @@ import XCTest
 
 final class HideFloatingViewWhenListScrollingDownUITests: XCTestCase {
 
-    func testExample() throws {
+    func test_whenScrollUpAndDown_canShowHideButtonRespectively() throws {
         
         let app = XCUIApplication()
         app.launch()
