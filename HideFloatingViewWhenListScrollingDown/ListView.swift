@@ -38,7 +38,7 @@ struct ListView: View {
                     scrollDirection = (delta < 0 ) ? .up : .down
                 }
             }
-            FloatingView(isVisible: scrollDirection == .down)
+            FloatingView(isVisible: .constant(scrollDirection == .down))
         }
     }
 }
