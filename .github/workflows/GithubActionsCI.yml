@@ -15,12 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Check Xcode version
-        uses: /usr/bin/xcodebuild -version
-
-      - name: Select Xcode
-        run: sudo xcode-select -switch /Applications/Xcode_14.3.app
-
       - name: Set Default Scheme
         run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
